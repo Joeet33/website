@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   alert("Page Loaded");
     
-$("#flex-item2_main").click(function(){
+$("#flex-item_1").click(function(){
    
   //alert("Page 1 Button working");
  
@@ -19,11 +19,15 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").hide();
+
+$("#sign-up").hide();
+
+$("#login").hide();
    
 });
     
     
-$("#flex-item2_1").click(function(){
+$("#flex-item_2").click(function(){
    
   //alert("Page 2 Button working");
  
@@ -38,10 +42,14 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").hide();
+
+$("#sign-up").hide();
+
+$("#login").hide();
    
 });    
    
-$("#flex-item2_2").click(function(){
+$("#flex-item_3").click(function(){
    
   //alert("Page 3 Button working");
  
@@ -56,10 +64,14 @@ $("#main3").show();
 $("#main4").hide();
 
 $("#main5").hide();
+
+$("#sign-up").hide();
+
+$("#login").hide();
    
 });
    
-$("#flex-item2_3").click(function(){
+$("#flex-item_4").click(function(){
    
   //alert("Page 4 Button working");
 
@@ -74,10 +86,14 @@ $("#main3").hide();
 $("#main4").show();
 
 $("#main5").hide();
+
+$("#sign-up").hide();
+
+$("#login").hide();
    
 });
    
-$("#flex-item2_4").click(function(){
+$("#flex-item_5").click(function(){
    
   //alert("Page 5 Button working");
 
@@ -92,6 +108,54 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").show();
+
+$("#sign-up").hide();
+
+$("#login").hide();
+   
+});
+
+$("#flex-item_6").click(function(){
+   
+  //alert("sign up Button working");
+
+$("title").text("sign up");
+   
+$("#main1").hide();
+
+$("#main2").hide();
+
+$("#main3").hide();
+
+$("#main4").hide();
+
+$("#main5").hide();
+
+$("#sign-up").show();
+
+$("#login").hide();
+   
+});
+
+$("#flex-item_7").click(function(){
+   
+  //alert("login Button working");
+
+$("title").text("login");
+   
+$("#main1").hide();
+
+$("#main2").hide();
+
+$("#main3").hide();
+
+$("#main4").hide();
+
+$("#main5").hide();
+
+$("#sign-up").hide();
+
+$("#login").show();
    
 });
 
