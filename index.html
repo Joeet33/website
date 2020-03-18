@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+    
+<head>
+    
+    <meta charset="utf-8">
+
+	<meta name="keywords" content="">
+	
+	<meta name="description" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Joe's Website</title>
+	
+    <!--Link code retrieved from https://www.w3schools.com/css/css_howto.asp-->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+
+<body>	
+	
+	<div id="header" class="header">
+	
+	<div id="flex-container1" class="flex-container1"> 
+		
+    <div id="flex-item1" class="flex-item1">Social Media</div>
+		
+    <a href="index.html" title="Home Page"><img id="logo1" src="images/download.jfif" alt="Joe's Logo" title="Joe's Logo"></a>
+		
+    <div id="flex-item3" class="flex-item1">Contact Details</div>
+		
+    </div>
+	</div>
+
+    
+	<div id="nav" class="nav">
+	
+	<div id="flex-container2" class="flex-container2"> 
+		
+		<div id="flex-item2_1" class="flex-item2">Page2</div>
+		
+		<div id="flex-item2_2" class="flex-item2">Page3</div>
+		
+		<div id="flex-item2_3" class="flex-item2">Page4</div>
+		
+		<div id="flex-item2_4" class="flex-item2">Page5</div>
+	
+	</div>
+	</div>
+
+    
+	<div id="main1" class="main">
+    
+            <div id="login_register" class="login_register">
+	
+		    <div id="login" class="login_process">Login</div>
+		
+		    <div id="register" class="login_process">Register</div>
+	
+	    </div>
+	
+	    <div id="form1container">
+	
+            <form id="registerform">
+			 
+                <label class="form1input">Username</label>
+		
+                    <input id="username" class="form1input" type="text" required>
+			 
+		        <label class="form1input">Email</label>
+			 
+                    <input id="email" class="form1input" type="email" required>
+			 
+		        <label class="form1input">Password</label>	 
+			 
+                    <input id="password" class="form1input" type="password" required>
+			 
+		        <label class="form1input">Confirm Password</label>
+			 
+                    <input id="confirm_password" class="form1input" type="password" required>
+			 
+                    <input id="submit_form1" class="form1input" type="submit" value="Register by clicking here">
+			 
+	           </form>
+		 
+        </div>
+    </div>
+    
+    
+    <div id="main2" class="main">
+	
+	    <iframe id="google_map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.941648495794!2d-1.095780984046966!3d50.79518997034523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745d9d91af2bd7%3A0x5d246ab7de37d188!2sUniversity%20of%20Portsmouth!5e0!3m2!1sen!2suk!4v1575458173193!5m2!1sen!2suk"></iframe>
+	
+	</div>
+    
+    
+    <div id="main3" class="main">
+		
+        <video id="video1" controls>
+		 
+            <source src="video/mov_bbb.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+		 
+        </video>	
+		
+		<iframe id="youtube1" src="https://www.youtube.com/embed/-kMrXH84ZcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+	</div>
+    
+    
+    <div id="main4" class="main"> page 4</div>
+
+    
+    <div id="main5" class="main">
+	
+<div class="slideshow-container">
+
+<div class="Slides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/black hole.jpg" style="width:100%" alt="Blackhole">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="Slides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/moon.jfif" style="width:100%" alt="Moon">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="Slides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/mountain.jpg" style="width:100%" alt="Mountain">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+	
+	</div>
+    
+
+	<div id="footer" class="footer">
+	
+		<div id="textresize" class="textresize flex-container4">
+		
+			<div id="smalla">A</div>
+			
+			<div id="mediuma">A</div>
+			
+		    <div id="biga">A</div>
+		
+    </div>
+    </div>
+
+</body>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("Slides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+</html>
