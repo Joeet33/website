@@ -30,7 +30,7 @@ $("#flex-item_2").click(function(){
    
   //alert("Page 2 Button working");
  
-$("title").text("Page 2");
+$("title").text("Maps");
    
 $("#main1").hide();
 
@@ -52,7 +52,7 @@ $("#flex-item_3").click(function(){
    
   //alert("Page 3 Button working");
  
-$("title").text("Page 3");
+$("title").text("Videos");
 
 $("#main1").hide();
 
@@ -96,7 +96,7 @@ $("#flex-item_5").click(function(){
    
   //alert("Page 5 Button working");
 
-$("title").text("Page 5");
+$("title").text("Work");
    
 $("#main1").hide();
 

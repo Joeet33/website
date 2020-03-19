@@ -131,6 +131,7 @@ a:active {
 	background-color: skyblue;
 	float: left;
 	clear: left;
+	display: none;
 }
 
 #google_map1 {
@@ -151,6 +152,7 @@ a:active {
 	float: left;
 	clear: left;
 	overflow: auto;
+	display: none;
 }
 
 #video1 {
@@ -184,6 +186,7 @@ a:active {
 	float: left;
 	clear: left;
 	overflow: auto;
+	display: none;
 }
 
 /* main5 */
@@ -196,6 +199,7 @@ a:active {
 	float: left;
 	clear: left;
 	overflow: auto;
+	display: none;
 }
 
 * {box-sizing: border-box}
@@ -304,6 +308,7 @@ img {vertical-align: middle;}
 	height: 60vh;
 	float: left;
 	clear: left;
+	display: none;
 }
 
 .login_process {
@@ -346,6 +351,7 @@ img {vertical-align: middle;}
 	height: 60vh;
 	float: left;
 	clear: left;
+	display: none;
 }
 
 /* footer */
