@@ -25,8 +25,7 @@ $("#sign-up").hide();
 $("#login").hide();
    
 });
-    
-    
+        
 $("#flex-item_2").click(function(){
    
   //alert("Page 2 Button working");
