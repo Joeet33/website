@@ -25,8 +25,7 @@ function check() {
 
     // check if stored data from register-form is equal to data from login form
     if(username2.value == storedName && password2.value == storedPw && email2.value == storedEmail) {
-        saveTheCookie(user_value);
-        return true;;
+        alert('You are logged in.');
     }else {
         alert('ERROR.');
     }
