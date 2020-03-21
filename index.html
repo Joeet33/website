@@ -126,24 +126,18 @@
     <div class="form-container">
 
           <form id="registerform">
-     
-              <label class="form-input">Username</label>
   
-              <input class="form-input" type="text" required>
+              <input id="username1" class="form-input" placeholder="Username" type="text" value="" required>
      
-              <label class="form-input">Email</label>
+              <input id="email1" class="form-input" placeholder="Email" type="email" value="" required>
      
-              <input class="form-input" type="email" required>
+              <input id="password1" class="form-input" placeholder="Password" type="password" value="" required>
      
-              <label class="form-input">Password</label>	 
+              <input id="confirm_password" class="form-input" placeholder="Confirm Password" type="password" required>
+
+              <span id='message'></span>
      
-              <input class="form-input" type="password" required>
-     
-              <label class="form-input">Confirm Password</label>
-     
-              <input class="form-input" type="password" required>
-     
-              <input class="submit_form" class="form-input" type="submit" value="Register by clicking here">
+              <input id="submit_button" class="form-input" type="submit" value="Register" onClick="store()"/>
      
            </form>
    
@@ -151,25 +145,20 @@
 
   </div>
 
+
   <div id="login">
 
     <div class="form-container">
 
           <form>
-     
-              <label class="form-input">Username</label>
   
-              <input class="form-input" type="text" required>
+              <input id="username2" class="form-input" placeholder="Username" type="text" value="" required>
      
-              <label class="form-input">Email</label>
+              <input id="email2" class="form-input" placeholder="Email" type="email" value="" required>	 
      
-              <input class="form-input" type="email" required>
+              <input id="password2" class="form-input" placeholder="Password" type="password" value="" required>
      
-              <label class="form-input">Password</label>	 
-     
-              <input class="form-input" type="password" required>
-     
-              <input class="submit_form" class="form-input" type="submit" value="login">
+              <input id="login_button" class="form-input" type="submit" value="Login" onClick="check()"/>
      
            </form>
    
@@ -196,5 +185,9 @@
     <script type="text/javascript" src="js/index.js"></script>
 
     <script type="text/javascript" src="js/powerpoint.js"></script>
+
+    <script type="text/javascript" src="js/password.js"></script>
+
+    <script type="text/javascript" src="js/reglogin.js"></script>
     
 </html>

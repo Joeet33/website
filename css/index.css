@@ -339,7 +339,11 @@ img {vertical-align: middle;}
 	left: 25%;
 }
 
-.submit_form {
+#submit_button {
+	width: 20% !important;
+}
+
+#login_button {
 	width: 20% !important;
 }
 
