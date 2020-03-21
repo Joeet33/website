@@ -1,8 +1,6 @@
 // JavaScript Document
 
 $(document).ready(function(){
-
-  alert("Page Loaded");
     
 $("#flex-item_1").click(function(){
    
