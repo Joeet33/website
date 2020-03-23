@@ -32,12 +32,42 @@ body {
 	justify-content: space-around;
 }
 
-.social-media {
+#socialmedia{
 	position: relative;
 	width: 25%;
-	background-color: yellowgreen;
-	font-size: 1.5vw;
-	text-align: center;
+	margin-right: 45%;
+}
+
+#facebook{
+    position: relative;
+    width: 20%;
+    height: 50%;
+	margin-top: 10%;
+	margin-right: 2%;
+}
+
+#insta{
+    position: relative;
+    width: 20%;
+    height: 50%;
+	margin-top: 10%;
+	margin-right: 2%;
+}
+
+#twitter{
+    position: relative;
+    width: 20%;
+    height: 50%;
+	margin-top: 10%;
+	margin-right: 2%;
+}
+
+#linkedin{
+    position: relative;
+    width: 20%;
+    height: 50%;
+	margin-top: 10%;
+	margin-right: 2%;
 }
 
 #contacts {
