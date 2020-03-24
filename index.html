@@ -27,7 +27,7 @@
 	
     <div id="flex-container2"> 
 
-      <a id="flex-item_1" title="Home Page"><img id="logo" src="images/download.jfif" alt="Joe's Logo" title="Joe's Logo"></a>
+      <a id="flex-item_1" title="Home Page"><img id="logo" src="images/Untitled-2.jpg" alt="Joe's Logo" title="Joe's Logo"></a>
       
       <div id="flex-item_2" class="nav-bar">Maps</div>
       
@@ -36,10 +36,6 @@
       <div id="flex-item_4" class="nav-bar">Page4</div>
       
       <div id="flex-item_5" class="nav-bar">Work</div>
-
-      <div id="flex-item_6" class="nav-bar">Sign Up</div>
-
-      <div id="flex-item_7" class="nav-bar">Login</div>
     
     </div>
 	</div>
@@ -47,15 +43,16 @@
   <div id="header">
 	
     <div id="flex-container1"> 
-		  <div id="socialmedia">
-      <a href="https://en-gb.facebook.com/"><img id="facebook" src="images/facebook.png" alt="Facebook"></a>
-      <a href="https://www.instagram.com/"><img id="insta" src="images/insta.png" alt="Instagram"></a>
-      <a href="https://twitter.com/login"><img id="twitter" src="images/twitter.png" alt="Twitter"></a>
-      <a href="https://uk.linkedin.com/"><img id="linkedin" src="images/linkedin.png" alt="Linkedin"></a>
-    </div>
+		  
       
 
-      <div id="contacts">Contact Details</div>
+      <div>
+      
+        <div id="flex-item_6" class="nav-bar2">Register</div>
+
+        <div id="flex-item_7" class="nav-bar2">Login</div>
+    
+    </div>
 		
     </div>
 	</div>
@@ -189,18 +186,19 @@
     
 
 	<div id="footer" class="footer">
-		<!-- https://www.wikihow.com/Resize-Text-with-HTML-and-Javascript -->
-			<button alt="Bigger text" 
-    title="Bigger text" 
-    onclick="changeTSize(5);">
-A+
-</button>
-<button alt="Smaller text" 
-     title="Smaller text" 
-    onclick="changeTSize(-5);">
-A-
-</button>
-		
+    
+    <div id="flex-container2"> 
+
+      <a id="facebook" href="https://en-gb.facebook.com/"><img class="imagesize" src="images/facebook.png" alt="Facebook"></a>
+      <a id="insta" href="https://www.instagram.com/"><img class="imagesize" src="images/insta.png" alt="Instagram"></a>
+      <a id="twitter" href="https://twitter.com/login"><img class="imagesize" src="images/twitter.png" alt="Twitter"></a>
+      <a id="linkedin" href="https://uk.linkedin.com/"><img class="imagesize" src="images/linkedin.png" alt="Linkedin"></a>
+  
+  
+    <!-- https://www.wikihow.com/Resize-Text-with-HTML-and-Javascript -->
+			<button id="btn1" alt="Bigger text" title="Bigger text" onclick="changeTSize(5);"> A+ </button>
+      <button id="btn2" alt="Smaller text" title="Smaller text" onclick="changeTSize(-5);"> A- </button>
+    
     </div>
   </div>
 
