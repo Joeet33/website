@@ -147,18 +147,26 @@
     <div class="form-container">
 
           <form id="registerform">
+
+              <label id="form1name">Username:</label>
   
-              <input id="username1" class="form-input" placeholder="Username" type="text" value="" required>
+              <input id="username1" class="form-input1" type="text" value="" required>
+
+              <label id="form1email">Email:</label>
+            
+              <input id="email1" class="form-input1" type="email" value="" required>
      
-              <input id="email1" class="form-input" placeholder="Email" type="email" value="" required>
+              <label id="form1password">Password:</label>
+
+              <input id="password1" class="form-input1" type="password" value="" required>
      
-              <input id="password1" class="form-input" placeholder="Password" type="password" value="" required>
-     
-              <input id="confirm_password" class="form-input" placeholder="Confirm Password" type="password" required>
+              <label id="form1confirm">Confirm Password:</label>
+
+              <input id="confirm_password" class="form-input1" type="password" required>
 
               <span id='message'></span>
      
-              <input id="submit_button" class="form-input" type="submit" value="Register" onClick="store()"/>
+              <input id="submit_button" type="submit" value="Register" onClick="store()"/>
      
            </form>
    
@@ -169,17 +177,26 @@
 
   <div id="login">
 
+    <div class="blurbg"></div>
+
+
     <div class="form-container">
 
           <form>
   
-              <input id="username2" class="form-input" placeholder="Username" type="text" value="" required>
+            <label id="form2name">Username:</label>
+
+              <input id="username2" class="form-input2" type="text" value="" required>
      
-              <input id="email2" class="form-input" placeholder="Email" type="email" value="" required>	 
+            <label id="form2email">Email:</label>
+
+              <input id="email2" class="form-input2" type="email" value="" required>	 
      
-              <input id="password2" class="form-input" placeholder="Password" type="password" value="" required>
+            <label id="form2password">Password:</label>
+
+              <input id="password2" class="form-input2" type="password" value="" required>
      
-              <input id="login_button" class="form-input" type="submit" value="Login" onClick="check()"/>
+              <input id="login_button" type="submit" value="Login" onClick="check()"/>
      
            </form>
    

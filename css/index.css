@@ -334,7 +334,7 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-/*sign up*/
+/*register*/
 
 #register {
     position: relative;
@@ -343,6 +343,22 @@ img {vertical-align: middle;}
 	float: left;
 	clear: left;
 	display: none;
+}
+
+.form-input1 {
+	position: relative;
+	width: 50%;
+	height: 3vh;
+	float: left;
+	clear: left;
+	margin-top: 3vh;
+	left: 27.5%;
+	top: 7%;
+}
+
+#registerform {
+	height: 100%;
+	width: 100%
 }
 
 .login_process {
@@ -354,7 +370,7 @@ img {vertical-align: middle;}
 
 .form-container {
 	position: absolute;
-	width: 50%;
+	width: 55%;
 	height: 50%;
 	left: 25%;
 	top: 25%;
@@ -363,22 +379,44 @@ img {vertical-align: middle;}
 	z-index: +10;
 }
 
-.form-input {
+#submit_button {
 	position: relative;
-	width: 50%;
-	height: 3vh;
+	width: 20% !important;
+	left: 43%;
+	top: 11%;
 	float: left;
 	clear: left;
-	margin-top: 2vh;
-	left: 25%;
-}
-
-#submit_button {
-	width: 20% !important;
 }
 
 #login_button {
+	position: relative;
 	width: 20% !important;
+	top: 22vh;
+	right: 4vw;
+}
+
+#form1name {
+	position: relative;
+	top: 5vh;
+	right: 35.5%;
+}
+
+#form1email {
+	position: relative;
+	top: 11vh;
+	right: 43.6%;
+}
+
+#form1password {
+	position: relative;
+	top: 17vh;
+	right: 56.2%;
+}
+
+#form1confirm {
+	position: absolute;
+	top: 23vh;
+	right: 72.8%;
 }
 
 /* login */
@@ -391,6 +429,39 @@ img {vertical-align: middle;}
 	clear: left;
 	display: none;
 }
+
+.form-input2 {
+
+    position: relative;
+    width: 50%;
+    height: 3vh;
+    float: left;
+    clear: left;
+    margin-top: 3vh;
+    left: 27.5%;
+    top: 4vh;
+
+}
+
+#form2name {
+	position: relative;
+	top: 6.5vh;
+	right: 35.5%;
+}
+
+#form2email {
+	position: relative;
+	top: 13vh;
+	right: 43.5%;
+}
+
+#form2password {
+	position: relative;
+	top: 19vh;
+	right: 56%;
+}
+
+/* background blur */
 
 .blurbg {
 	 /* The image used */
