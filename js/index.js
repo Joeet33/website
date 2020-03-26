@@ -20,7 +20,7 @@ $("#main4").hide();
 
 $("#main5").hide();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").hide();
    
@@ -42,7 +42,7 @@ $("#main4").hide();
 
 $("#main5").hide();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").hide();
    
@@ -64,7 +64,7 @@ $("#main4").hide();
 
 $("#main5").hide();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").hide();
    
@@ -86,7 +86,7 @@ $("#main4").show();
 
 $("#main5").hide();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").hide();
    
@@ -108,7 +108,7 @@ $("#main4").hide();
 
 $("#main5").show();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").hide();
    
@@ -118,7 +118,7 @@ $("#flex-item_6").click(function(){
    
   //alert("sign up Button working");
 
-$("title").text("sign up");
+$("title").text("register");
    
 $("#main1").hide();
 
@@ -130,7 +130,7 @@ $("#main4").hide();
 
 $("#main5").hide();
 
-$("#sign-up").show();
+$("#register").show();
 
 $("#login").hide();
    
@@ -152,7 +152,7 @@ $("#main4").hide();
 
 $("#main5").hide();
 
-$("#sign-up").hide();
+$("#register").hide();
 
 $("#login").show();
    

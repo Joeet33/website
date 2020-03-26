@@ -1,9 +1,9 @@
 function changeTSize(nu) {
-  var body = document.getElementsByTagName('body')[0]; 
+  var body = document.getElementsByTagName("body")[0]; 
  
   var fontSizeString = window
      .getComputedStyle(body, null)
-     .getPropertyValue('font-size');
+     .getPropertyValue("font-size");
   var fontSize = parseFloat(fontSizeString); 
-  body.style.fontSize = (fontSize + nu) + 'px';
+  body.style.fontSize = (fontSize + nu) + "px";
  }

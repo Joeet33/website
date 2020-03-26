@@ -5,23 +5,32 @@ body {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
-	margin: 0;
 	overflow: hidden;
-	background-image: url("seamless-pattern_1159-5086.jpg"); 
-	background-repeat: repeat;
 	background-size: 100% auto;
+	background-image: url(/C:/Users/joeet/OneDrive/Documents/webroot/images/image.jpg);
+    background-repeat: repeat;
 }
 
 /* nav */
 
 #nav {
-	background-color: white;
 	width: 100vw; 
 	height: 10vh;
-	color: black;
+	background-color: white;
 	position: relative;
 	float: left;
 	clear: left;
+}
+
+#navborder{
+	position: relative;
+	border: 1px outset gray;
+}
+
+#footerborder{
+	position: relative;
+	border: 1px outset gray;
+	bottom: 103%;
 }
 
 /* unvisited link */
@@ -102,7 +111,6 @@ a:active {
 
 #header {
 	position: relative;
-    background-color: lightgray;
 	width: 100vw;
 	height: 13vh;
 	float: left;
@@ -148,7 +156,6 @@ a:active {
     position: relative;
 	width: 100vw;
 	height: 68vh;
-	background-color: skyblue;
 	float: left;
 	clear: left;
 }
@@ -158,8 +165,7 @@ a:active {
 #main2 {
     position: relative;
 	width: 100vw;
-	height: 60vh;
-	background-color: skyblue;
+	height: 68vh;
 	float: left;
 	clear: left;
 	display: none;
@@ -178,8 +184,7 @@ a:active {
 #main3 {
     position: relative;
 	width: 100vw;
-	height: 60vh;
-	background-color: skyblue;
+	height: 68vh;
 	float: left;
 	clear: left;
 	overflow: auto;
@@ -212,8 +217,7 @@ a:active {
 #main4 {
     position: relative;
 	width: 100vw;
-	height: 60vh;
-	background-color: skyblue;
+	height: 68vh;
 	float: left;
 	clear: left;
 	overflow: auto;
@@ -225,8 +229,7 @@ a:active {
 #main5 {
     position: relative;
 	width: 100vw;
-	height: 60vh;
-	background-color: skyblue;
+	height: 68vh;
 	float: left;
 	clear: left;
 	overflow: auto;
@@ -333,10 +336,10 @@ img {vertical-align: middle;}
 
 /*sign up*/
 
-#sign-up {
+#register {
     position: relative;
 	width: 100vw;
-	height: 60vh;
+	height: 68vh;
 	float: left;
 	clear: left;
 	display: none;
@@ -383,10 +386,27 @@ img {vertical-align: middle;}
 #login {
     position: relative;
 	width: 100vw;
-	height: 60vh;
+	height: 68vh;
 	float: left;
 	clear: left;
 	display: none;
+}
+
+.blurbg {
+	 /* The image used */
+	 background-image: url(/C:/Users/joeet/OneDrive/Documents/webroot/images/image.jpg);
+  
+	 /* Add the blur effect */
+	 filter: blur(8px);
+	 -webkit-filter: blur(8px);
+	 
+	 /* Full height */
+	 height: 100%; 
+	 
+	 /* Center and scale the image nicely */
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
 }
 
 /* footer */
@@ -395,7 +415,6 @@ img {vertical-align: middle;}
     position: relative;
 	width: 100vw;
 	height: 11vh;
-	background-color: white;
 	float: left;
 	clear: left;
 }
