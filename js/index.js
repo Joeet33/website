@@ -94,9 +94,3 @@ $("#main5").show();
    
 });
 });
-
-$(function(){
-
- // jQuery methods go here...
-
-});

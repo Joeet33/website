@@ -23,10 +23,34 @@
 
 <body>
 
+  <div id="mask"></div>
 
-  <div id="registerform1_container">
+  <div id="loginform-container">
 
-    <form id="registerform">
+    <form>
+
+      <label id="form2name">Username:</label>
+
+        <input id="username2" class="form-input2" type="text" value="" required>
+
+      <label id="form2email">Email:</label>
+
+        <input id="email2" class="form-input2" type="email" value="" required>	 
+
+      <label id="form2password">Password:</label>
+
+        <input id="password2" class="form-input2" type="password" value="" required>
+
+        <input id="login_button" type="submit" value="Login" onClick="check()"/>
+
+     </form>
+
+</div>
+
+
+<div id="regform-container">
+
+  <form>
 
       <label id="form1name">Username:</label>
 
@@ -50,32 +74,8 @@
 
    </form>
 
-  </div>
+</div>
 
-
-  <div id="loginform1_container">
-
-    <form>
-  
-      <label id="form2name">Username:</label>
-
-        <input id="username2" class="form-input2" type="text" value="" required>
-
-      <label id="form2email">Email:</label>
-
-        <input id="email2" class="form-input2" type="email" value="" required>	 
-
-      <label id="form2password">Password:</label>
-
-        <input id="password2" class="form-input2" type="password" value="" required>
-
-        <input id="login_button" type="submit" value="Login" onClick="check()"/>
-
-     </form>
-
-   </form>
-
-  </div>
 
   
   <div id="nav">
@@ -99,16 +99,19 @@
   </div>
 	
   <div id="header">
+	
+    <div id="flex-container1"> 
 
-        <div id="login_register">
+      <div>
+      
+        <div id="register" class="nav-bar2">Register</div>
 
-          <div id="login" class="loginregister">Login</div>
-
-          <div id="register" class="loginregister">Register</div>
-
-        </div>
+        <div id="login" class="nav-bar2">Login</div>
+    
+    </div>
 		
-  </div>
+    </div>
+	</div>
     
   <div id="main1">main 1</div>
     
@@ -191,7 +194,7 @@
         </div>
 	
   </div>
-    
+
 
 	<div id="footer">
     

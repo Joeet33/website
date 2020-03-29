@@ -1,15 +1,33 @@
 $(document).ready(function(){
 
-$("#register").click(function() {
-
-$("registerform1_container").toggle();
-
-});
-
 $("#login").click(function() {
 
-$("loginform1_container").toggle();
+$("#loginform-container").toggle();
+
+$("#mask").toggle();
 
 });
+
+
+$("#register").on("click", function() {
+
+$("#regform-container").toggle();
+
+$("#mask").toggle();
+
+});
+
+
+$("#mask").on("click", function() {
+
+  $("#regform-container").hide();
+
+  $("#loginform-container").hide();
+  
+  $("#mask").hide();
   
   });
+
+
+  
+});
