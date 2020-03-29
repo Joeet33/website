@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 function changeTSize(nu) {
   var body = document.getElementsByTagName("body")[0]; 
  
@@ -7,3 +9,5 @@ function changeTSize(nu) {
   var fontSize = parseFloat(fontSizeString); 
   body.style.fontSize = (fontSize + nu) + "px";
  }
+
+});
