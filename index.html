@@ -15,7 +15,9 @@
 	<title>Joe's Website</title>
 	
     <!--Link code retrieved from https://www.w3schools.com/css/css_howto.asp-->
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/rescale.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
@@ -76,11 +78,10 @@
 
 </div>
 
-
   
   <div id="nav">
 	
-    <div id="flex-container2"> 
+    <div id="flex-container2" id="myLinks"> 
 
       <a id="flex-item_1" title="Home Page"><img id="logo" src="images/Untitled-2.jpg" alt="Joe's Logo" title="Joe's Logo"></a>
       
@@ -93,6 +94,10 @@
       <div id="flex-item_5" class="nav-bar">Work</div>
     
     </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
 
     <div id="navborder"></div>
 
@@ -229,6 +234,8 @@
     <script type="text/javascript" src="js/equalityact.js"></script>
 
     <script type="text/javascript" src="js/modalform.js"></script>
+
+    <script type="text/javascript" src="js/rescale.js"></script>
 
     
 </html>

@@ -33,30 +33,6 @@ body {
 	bottom: 103%;
 }
 
-/* unvisited link */
-a:link {
-  color: black;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: black;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-  color: black;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-  color: black;
-    text-decoration: none;
-}
-
 #flex-container2 {
 	position: relative;
 	width: 100%;
@@ -536,42 +512,4 @@ img {vertical-align: middle;}
 	position: absolute;
 	top: 25%;
 	right: 90%;
-}
-
-/*Start of the media screen*/
-
-@media screen and (max-width:414px){
-	
-	#hamburger_menu {
-		display: block;
-		position: relative;
-		clear: left;
-		float: left;
-		width: 10%;
-		height: 10vh;
-	}	
-
-	.cookie-banner {
-		position: fixed;
-		bottom: 40px;
-		left: 10%;
-		right: 10%;
-		width: 80%;
-		padding: 5px 14px;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		background-color: #eee;
-		border-radius: 5px;
-		box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-	  }
-	  .close {
-		height: 20px;
-		background-color: #777;
-		border: none;
-		color: white;
-		border-radius: 2px;
-		cursor: pointer;
-	  }
-
 }
