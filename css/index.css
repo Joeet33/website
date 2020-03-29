@@ -7,7 +7,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	background-size: 100% auto;
-	background-image: url(/C:/Users/joeet/OneDrive/Documents/webroot/images/image.jpg);
+	background-image: url(/C:/Users/joeet/OneDrive/Desktop/Responsive-design-unit/webroot/images/image.jpg);
     background-repeat: repeat;
 }
 
@@ -117,35 +117,56 @@ a:active {
 	clear: left;
 }
 
-#flex-container1 {
+#login_register {
 	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
+    width: 100%;
+	margin-left: 90.5vw;
+	cursor: pointer;
 }
 
-
-.nav-bar2 {
+.loginregister {
 	position: relative;
-    width: 110%;
-    height: 5vh;
+	width: 9%;
+	height: 8vh;
     background-color: gold;
     font-size: 1.5vw;
     text-align: center;
-    line-height: 3.5vh;
+    line-height: 6.5vh;
     border-radius: 1vw;
-    border: 2px outset black;
+	border: 2px outset black;
+	top: 17%;
 }
 
-#flex-item_6 {
-	top: 53%;
-	left: 92vw;
+#registerform1_container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25vh;
+    background-color: white;
+    z-index: 10;
+    border: 2px black dotted;
+    display: none;
 }
 
-#flex-item_7 {
-	bottom: 32%;
-	left: 92vw;
+#loginform1_container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25vh;
+    background-color: white;
+    z-index: 10;
+    border: 2px black dotted;
+    display: none;
+}
+
+#register {
+ 
+}
+
+#login {
+ 
 }
 
 /* mains */
@@ -336,14 +357,7 @@ img {vertical-align: middle;}
 
 /*register*/
 
-#register {
-    position: relative;
-	width: 100vw;
-	height: 68vh;
-	float: left;
-	clear: left;
-	display: none;
-}
+
 
 .form-input1 {
 	position: relative;
@@ -421,14 +435,7 @@ img {vertical-align: middle;}
 
 /* login */
 
-#login {
-    position: relative;
-	width: 100vw;
-	height: 68vh;
-	float: left;
-	clear: left;
-	display: none;
-}
+
 
 .form-input2 {
 
@@ -459,25 +466,6 @@ img {vertical-align: middle;}
 	position: relative;
 	top: 19vh;
 	right: 56%;
-}
-
-/* background blur */
-
-.blurbg {
-	 /* The image used */
-	 background-image: url(/C:/Users/joeet/OneDrive/Documents/webroot/images/image.jpg);
-  
-	 /* Add the blur effect */
-	 filter: blur(8px);
-	 -webkit-filter: blur(8px);
-	 
-	 /* Full height */
-	 height: 100%; 
-	 
-	 /* Center and scale the image nicely */
-	 background-position: center;
-	 background-repeat: no-repeat;
-	 background-size: cover;
 }
 
 /* footer */

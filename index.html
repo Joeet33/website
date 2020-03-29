@@ -22,6 +22,61 @@
 </head>
 
 <body>
+
+
+  <div id="registerform1_container">
+
+    <form id="registerform">
+
+      <label id="form1name">Username:</label>
+
+      <input id="username1" class="form-input1" type="text" value="" required>
+
+      <label id="form1email">Email:</label>
+    
+      <input id="email1" class="form-input1" type="email" value="" required>
+
+      <label id="form1password">Password:</label>
+
+      <input id="password1" class="form-input1" type="password" value="" required>
+
+      <label id="form1confirm">Confirm Password:</label>
+
+      <input id="confirm_password" class="form-input1" type="password" required>
+
+      <span id='message'></span>
+
+      <input id="submit_button" type="submit" value="Register" onClick="store()"/>
+
+   </form>
+
+  </div>
+
+
+  <div id="loginform1_container">
+
+    <form>
+  
+      <label id="form2name">Username:</label>
+
+        <input id="username2" class="form-input2" type="text" value="" required>
+
+      <label id="form2email">Email:</label>
+
+        <input id="email2" class="form-input2" type="email" value="" required>	 
+
+      <label id="form2password">Password:</label>
+
+        <input id="password2" class="form-input2" type="password" value="" required>
+
+        <input id="login_button" type="submit" value="Login" onClick="check()"/>
+
+     </form>
+
+   </form>
+
+  </div>
+
   
   <div id="nav">
 	
@@ -44,19 +99,16 @@
   </div>
 	
   <div id="header">
-	
-    <div id="flex-container1"> 
 
-      <div>
-      
-        <div id="flex-item_6" class="nav-bar2">Register</div>
+        <div id="login_register">
 
-        <div id="flex-item_7" class="nav-bar2">Login</div>
-    
-    </div>
+          <div id="login" class="loginregister">Login</div>
+
+          <div id="register" class="loginregister">Register</div>
+
+        </div>
 		
-    </div>
-	</div>
+  </div>
     
   <div id="main1">main 1</div>
     
@@ -139,70 +191,6 @@
         </div>
 	
   </div>
-  
-  <div id="register">
-
-    <div class="blurbg"></div>
-
-    <div class="form-container">
-
-          <form id="registerform">
-
-              <label id="form1name">Username:</label>
-  
-              <input id="username1" class="form-input1" type="text" value="" required>
-
-              <label id="form1email">Email:</label>
-            
-              <input id="email1" class="form-input1" type="email" value="" required>
-     
-              <label id="form1password">Password:</label>
-
-              <input id="password1" class="form-input1" type="password" value="" required>
-     
-              <label id="form1confirm">Confirm Password:</label>
-
-              <input id="confirm_password" class="form-input1" type="password" required>
-
-              <span id='message'></span>
-     
-              <input id="submit_button" type="submit" value="Register" onClick="store()"/>
-     
-           </form>
-   
-      </div>
-
-  </div>
-
-
-  <div id="login">
-
-    <div class="blurbg"></div>
-
-
-    <div class="form-container">
-
-          <form>
-  
-            <label id="form2name">Username:</label>
-
-              <input id="username2" class="form-input2" type="text" value="" required>
-     
-            <label id="form2email">Email:</label>
-
-              <input id="email2" class="form-input2" type="email" value="" required>	 
-     
-            <label id="form2password">Password:</label>
-
-              <input id="password2" class="form-input2" type="password" value="" required>
-     
-              <input id="login_button" type="submit" value="Login" onClick="check()"/>
-     
-           </form>
-   
-      </div>
-
-  </div>
     
 
 	<div id="footer">
@@ -236,6 +224,8 @@
     <script type="text/javascript" src="js/reglogin.js"></script>
 
     <script type="text/javascript" src="js/equalityact.js"></script>
+
+    <script type="text/javascript" src="js/modalform.js"></script>
 
     
 </html>

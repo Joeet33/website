@@ -19,10 +19,6 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").hide();
-
-$("#register").hide();
-
-$("#login").hide();
    
 });
         
@@ -41,10 +37,6 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").hide();
-
-$("#register").hide();
-
-$("#login").hide();
    
 });    
    
@@ -63,10 +55,6 @@ $("#main3").show();
 $("#main4").hide();
 
 $("#main5").hide();
-
-$("#register").hide();
-
-$("#login").hide();
    
 });
    
@@ -85,10 +73,6 @@ $("#main3").hide();
 $("#main4").show();
 
 $("#main5").hide();
-
-$("#register").hide();
-
-$("#login").hide();
    
 });
    
@@ -107,57 +91,8 @@ $("#main3").hide();
 $("#main4").hide();
 
 $("#main5").show();
-
-$("#register").hide();
-
-$("#login").hide();
    
 });
-
-$("#flex-item_6").click(function(){
-   
-  //alert("sign up Button working");
-
-$("title").text("register");
-   
-$("#main1").hide();
-
-$("#main2").hide();
-
-$("#main3").hide();
-
-$("#main4").hide();
-
-$("#main5").hide();
-
-$("#register").show();
-
-$("#login").hide();
-   
-});
-
-$("#flex-item_7").click(function(){
-   
-  //alert("login Button working");
-
-$("title").text("login");
-   
-$("#main1").hide();
-
-$("#main2").hide();
-
-$("#main3").hide();
-
-$("#main4").hide();
-
-$("#main5").hide();
-
-$("#register").hide();
-
-$("#login").show();
-   
-});
-
 });
 
 $(function(){
