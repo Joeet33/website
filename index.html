@@ -29,21 +29,21 @@
 
   <div id="loginform-container">
 
-    <form>
+    <form id="login_form1">
 
-      <label id="form2name">Username:</label>
+      <label class="loginform_elements">Username:</label>
 
-        <input id="username2" class="form-input2" type="text" value="" required>
+        <input id="username2" class="loginform_elements" type="text" value="" required>
 
-      <label id="form2email">Email:</label>
+      <label class="loginform_elements">Email:</label>
 
-        <input id="email2" class="form-input2" type="email" value="" required>	 
+        <input id="email2" class="loginform_elements" type="email" value="" required>	 
 
-      <label id="form2password">Password:</label>
+      <label class="loginform_elements">Password:</label>
 
-        <input id="password2" class="form-input2" type="password" value="" required>
+        <input id="password2" class="loginform_elements" type="password" value="" required>
 
-        <input id="login_button" type="submit" value="Login" onClick="check()"/>
+        <input id="login_button" class="loginform_elements" type="submit" value="Login" onClick="check()"/>
 
      </form>
 
@@ -52,27 +52,27 @@
 
 <div id="regform-container">
 
-  <form>
+  <form id="reg_form1">
 
-      <label id="form1name">Username:</label>
+      <label class="regform_elements">Username:</label>
 
-      <input id="username1" class="form-input1" type="text" value="" required>
+      <input id="username1" class="regform_elements" type="text" value="" required>
 
-      <label id="form1email">Email:</label>
+      <label class="regform_elements">Email:</label>
     
-      <input id="email1" class="form-input1" type="email" value="" required>
+      <input id="email1" class="regform_elements" type="email" value="" required>
 
-      <label id="form1password">Password:</label>
+      <label class="regform_elements">Password:</label>
 
-      <input id="password1" class="form-input1" type="password" value="" required>
+      <input id="password1" class="regform_elements" type="password" value="" required>
 
-      <label id="form1confirm">Confirm Password:</label>
+      <label class="regform_elements">Confirm Password:</label>
 
-      <input id="confirm_password" class="form-input1" type="password" required>
+      <input id="confirm_password" class="regform_elements" type="password" required>
 
       <span id='message'></span>
 
-      <input id="submit_button" type="submit" value="Register" onClick="store()"/>
+      <input id="submit_button" class="regform_elements" type="submit" value="Register" onClick="store()"/>
 
    </form>
 

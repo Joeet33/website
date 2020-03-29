@@ -318,21 +318,13 @@ img {vertical-align: middle;}
     display: none;
 }
 
-#register {
-	top: 53%;
+#login {
+	bottom: 32%;
 	left: 92vw;
 	cursor: pointer;
 	z-index: 6;
 }
 
-.form-input1 {
-	position: relative;
-    width: 50%;
-    float: left;
-    clear: left;
-    margin-top: 5vh;
-    left: 27.5%;
-}
 
 .login_process {
     position: relative;
@@ -343,115 +335,72 @@ img {vertical-align: middle;}
 
 #loginform-container {
 	position: absolute;
-	width: 55%;
-	height: 50%;
+	width: 50%;
+	height: 50vh;
 	left: 25%;
-	top: 25%;
+	top: 25vh;
 	border: 2px black solid;
 	background-color: white;
 	z-index: +10;
 	display: none;
 }
 
-#regform-container {
-	position: absolute;
-	width: 55%;
-	height: 50%;
-	left: 25%;
-	top: 25%;
-	border: 2px black solid;
-	background-color: white;
-	z-index: +10;
-	display: none;
-}
-
-#submit_button {
+#login_form1{
 	position: relative;
-    width: 20% !important;
-    height: 4vh;
-    left: 43%;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 20%;
+}
+
+.loginform_elements{
+	position: relative;
+    width: 50%;
+    height: 3vh;
     float: left;
     clear: left;
-    margin-top: 3%;
+    margin-bottom: 1vh;
+    left: 25%;
 }
 
-#form1name {
-	position: relative;
-    top: 5vh;
-    right: 35.5%;
-}
-
-#form1email {
-	position: relative;
-    top: 13.5vh;
-    right: 43.6%;
-}
-
-#form1password {
-	position: relative;
-    top: 22vh;
-    right: 56.2%;
-}
-
-#form1confirm {
-	position: absolute;
-    top: 31vh;
-    right: 72.8%;
-}
-
-#login {
-	bottom: 32%;
+#register {
+	top: 53%;
 	left: 92vw;
 	cursor: pointer;
 	z-index: 6;
 }
 
-.form-input2 {
+#regform-container {
+	position: absolute;
+	width: 50%;
+	height: 50vh;
+	left: 25%;
+	top: 25vh;
+	border: 2px black solid;
+	background-color: white;
+	z-index: +10;
+	display: none;
+}
 
-    position: absolute;
+#reg_form1{
+	position: relative;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 20%;
+}
+
+.regform_elements{
+	position: relative;
     width: 50%;
+    height: 3vh;
     float: left;
     clear: left;
-    left: 27.5%;
+    margin-bottom: 1vh;
+    left: 25%;
 }
 
-#username2 {
-    margin-top: 12vh;
-}
 
-#email2 {
-    margin-top: 20vh;
-}
-
-#password2 {
-    margin-top: 28vh;
-}
-
-#login_button {
-    position: relative;
-    width: 20% !important;
-    top: 36vh;
-    left: 8%;
-    height: 4vh;
-}
-
-#form2name {
-	position: relative;
-    top: 12vh;
-    left: 8vw;
-}
-
-#form2email {
-	position: relative;
-    top: 20vh;
-    left: 3.6vw;
-}
-
-#form2password {
-	position: relative;
-    top: 28vh;
-    right: 3.3vw;
-}
 
 /* footer */
 
