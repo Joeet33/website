@@ -8,7 +8,7 @@ $("#flex-item_1").click(function(){
    
   //alert("Page 1 Button working");
  
-$("title").text("Page 1");
+$("title").text("Home");
    
 $("#main1").show();
 
@@ -62,7 +62,7 @@ $("#flex-item_4").click(function(){
    
   //alert("Page 4 Button working");
 
-$("title").text("Page 4");
+$("title").text("Enquiries");
    
 $("#main1").hide();
 

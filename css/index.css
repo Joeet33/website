@@ -43,15 +43,12 @@ body {
 
 .nav-bar {
 	position: relative;
-	width: 9%;
-	height: 8vh;
-    background-color: gold;
+    width: 6%;
+    height: 100%;
     font-size: 1.5vw;
     text-align: center;
-    line-height: 6.5vh;
-    border-radius: 1vw;
-	border: 2px outset black;
-	top: 17%;
+	line-height: 10.5vh;
+	transition: 0.3s;
 }
 
 #flex-item_1 {
@@ -61,25 +58,30 @@ body {
 }
 
 #flex-item_2 {
-    margin-left: 55.7%;
-	margin-right: 0.5%;
-	cursor: pointer;
+	position: absolute;
+	margin-left: 68%;
+    cursor: pointer;
 }
 
 #flex-item_3 {
-	margin-right: 0.5%;
+	position: absolute;
+	margin-left: 76%;
 	cursor: pointer;
 }
 
 #flex-item_4 {
-	margin-right: 0.5%;
+	position: absolute;
+	margin-left: 84%;
 	cursor: pointer;
 }
 
 #flex-item_5 {
-	margin-right: 0.5%;
+	position: absolute;
+	margin-left: 92%;
 	cursor: pointer;
 }
+
+.nav-bar:hover {color: darkorange;}
 
 #logo { 
     position: relative;
@@ -112,13 +114,17 @@ body {
 	position: relative;
     width: 110%;
     height: 5vh;
-    background-color: gold;
+    background-color: orange;
     font-size: 1.5vw;
     text-align: center;
     line-height: 3.5vh;
-    border-radius: 1vw;
-    border: 2px outset black;
+    border-radius: 0.5vw;
+    border: 1px outset black;
+	opacity: 0.55;
+	transition: 0.3s;
 }
+
+.nav-bar2:hover {opacity: 0.9;}
 
 /* mains */
 
@@ -194,6 +200,14 @@ body {
 	clear: left;
 	overflow: auto;
 	display: none;
+}
+
+.form1_elements {
+    position: relative;
+    width: 50%;
+    margin-top: 2%;
+    left: 25%;
+    bottom: 7%;
 }
 
 /* main5 */
