@@ -174,7 +174,7 @@ body {
 	width: 25%;
 	height: 46%;
 	left: 1%;
-	top: 29%;
+	top: 1%;
 	float: left;
     clear: left;
 }
@@ -183,7 +183,7 @@ body {
 	position: relative;
 	width: 25%;
 	height: 46%;
-	top: 29%;
+	top: 4%;
 	left: 1%;
 	float: left;
 	clear: left;
@@ -205,9 +205,18 @@ body {
 .form1_elements {
     position: relative;
     width: 50%;
-    margin-top: 2%;
+    height: 17%;
+    margin-top: 1%;
     left: 25%;
     bottom: 7%;
+}
+
+#submit_form1 {
+    height: 8%;
+    position: absolute;
+    width: 19%;
+    margin-left: 17%;
+    margin-bottom: 8%;
 }
 
 /* main5 */
@@ -256,6 +265,19 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
+a.next {
+	right: 25%;
+}
+
+a.prev {
+	left: 25%;
+}
+
+.image {
+	position: relative;
+	left: 25%;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -278,7 +300,8 @@ img {vertical-align: middle;}
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  left: 25%;
+  z-index: 1;
 }
 
 /* The dots/bullets/indicators */
@@ -435,35 +458,35 @@ img {vertical-align: middle;}
 }
 
 #facebook{
-    position: relative;
+	position: absolute;
     width: 4%;
-	height: 70%;
-	left: 80vw;
-	top: 6%;
+    height: 70%;
+    left: 80vw;
+    top: 6%;
 }
 
 #insta{
-	position: relative;
+	position: absolute;
     width: 4%;
-	height: 70%;
-	left: 81vw;
-	top: 6%;
+    height: 70%;
+    left: 85vw;
+    top: 6%;
 }
 
 #twitter{
-	position: relative;
+	position: absolute;
     width: 4%;
-	height: 70%;
-	left: 82vw;
-	top: 6%;
+    height: 70%;
+    left: 90vw;
+    top: 6%;
 }
 
 #linkedin{
-	position: relative;
+	position: absolute;
     width: 4%;
-	height: 70%;
-	left: 83vw;
-	top: 6%;
+    height: 70%;
+    left: 95vw;
+    top: 6%;
 }
 
 .imagesize{
