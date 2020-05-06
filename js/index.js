@@ -101,11 +101,11 @@ $("#hamburgermenu").click(function() {
 
 	
   //test if the mymobilenav element is hidden
-    if($("#mymobilenav").is(":hidden")) {
+    if($("#mobilenav").is(":hidden")) {
   
       
   //if the mymobilenav element is hidden then slide down the mymobilenav box to show contents
-    $("#mymobilenav").slideDown();
+    $("#mobilenav").slideDown();
   
       
   //and to reduce the height of the ,main element to 62vh (this allows the foorter to be in view).
@@ -116,7 +116,7 @@ $("#hamburgermenu").click(function() {
     }else{
   
   //hide the mymobilenav element by sliding up
-    $("#mymobilenav").slideUp();
+    $("#mobilenav").slideUp();
   
       
   //and increase the .main element to 75vh so the footer stays at the bottom of the page
@@ -136,13 +136,13 @@ $("#hamburgermenu").click(function() {
     
       $("#main1").hide();
     
-      $("#mymain2").show();
+      $("#main2").show();
     
-      $("#mymain3").hide();
+      $("#main3").hide();
     
-      $("#mymain4").hide();
+      $("#main4").hide();
     
-      $("#mymain5").hide();
+      $("#main5").hide();
     
   });
     
@@ -154,13 +154,13 @@ $("#hamburgermenu").click(function() {
     
       $("#main1").hide();
     
-      $("#mymain2").hide();
+      $("#main2").hide();
     
-      $("#mymain3").show();
+      $("#main3").show();
     
-      $("#mymain4").hide();
+      $("#main4").hide();
     
-      $("#mymain5").hide();
+      $("#main5").hide();
     
       
   });
@@ -173,13 +173,13 @@ $("#hamburgermenu").click(function() {
     
       $("#main1").hide();
     
-      $("#mymain2").hide();
+      $("#main2").hide();
     
-      $("#mymain3").hide();
+      $("#main3").hide();
     
-      $("#mymain4").show();
+      $("#main4").show();
     
-      $("#mymain5").hide();
+      $("#main5").hide();
     
     
   });
@@ -192,13 +192,13 @@ $("#hamburgermenu").click(function() {
     
       $("#main1").hide();
     
-      $("#mymain2").hide();
+      $("#main2").hide();
     
-      $("#mymain3").hide();
+      $("#main3").hide();
     
-      $("#mymain4").hide();
+      $("#main4").hide();
     
-      $("#mymain5").show();
+      $("#main5").show();
     
     
   });	
