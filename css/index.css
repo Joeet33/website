@@ -7,7 +7,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	background-size: 100% auto;
-	background-image: url(/C:/Users/joeet/OneDrive/Desktop/Responsive-design-unit/webroot/images/image.jpg);
+	background-image: url(../images/image.jpg);
     background-repeat: repeat;
 }
 
