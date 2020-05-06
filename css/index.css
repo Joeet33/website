@@ -322,9 +322,52 @@ a.prev {
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media screen and (max-width: 414px){
+#hamburgermenu {
+    position: relative;
+    width: 10%;
+    left: 45%;
+    clear: left;
+    float: left;
+    font-size: 5vw;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+#hamburgermenu {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+#mobilenav {
+    position: relative;
+    width: 90%;
+    clear: left;
+    float: left;
+    height: 16vh;
+    display: none;
+    left: 5%;
+}
+#mobilenav {
+    display: none;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
 }
 
 /*register+login*/
