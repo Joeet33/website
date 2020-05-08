@@ -17,13 +17,21 @@
     <!--Link code retrieved from https://www.w3schools.com/css/css_howto.asp-->
   <link rel="stylesheet" type="text/css" href="css/index.css">
   
-  <link rel="stylesheet" type="text/css" href="css/rescale.css">
+  <link rel="stylesheet" type="text/css" href="css/cookielaw.css">
+
+  <link rel="stylesheet" type="text/css" href="css/picture_gallery.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
 
 <body>
+<!--cookiebar script-->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $.cookieBar();
+    });
+  </script>
 
   <div id="mask"></div>
 
@@ -132,7 +140,112 @@
     </div>
 	</div>
     
-  <div id="main1">main 1</div>
+  <div id="main1">
+    
+    <div class="row">
+
+      <div class="column">
+
+          <img src="images/space.jpg" alt="Space Image" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/sunflower.jpg" style="width:100%" alt="Sunflower Image" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/puffin.jpg" style="width:100%" alt="Puffin Image" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+
+      </div>
+
+      <div class="column">
+
+          <img src="images/bridge.jpg" style="width:100%" alt="Bridge Image" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+
+      </div>
+
+  </div>
+
+  <div id="myModal" class="modal">
+
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+  
+      <div class="modal-content">
+
+          <div class="mySlides">
+
+              <div class="numbertext">1 / 4</div>
+
+              <img src="images/space.jpg" alt="Nature Wide Image" style="width:100%">
+      
+          </div>
+
+          <div class="mySlides">
+
+              <div class="numbertext">2 / 4</div>
+
+              <img src="images/sunflower.jpg" alt="Snow Wide Image" style="width:100%">
+
+          </div>
+
+          <div class="mySlides">
+
+              <div class="numbertext">3 / 4</div>
+
+              <img src="images/puffin.jpg" alt="Mountains Wide Image" style="width:100%">
+
+          </div>
+
+          <div class="mySlides">
+
+              <div class="numbertext">4 / 4</div>
+
+              <img src="images/bridge.jpg" alt="Lights Wide Image" style="width:100%">
+
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+
+              <p id="caption"></p>
+
+          </div>
+
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/space.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/puffin.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+
+          </div>
+
+          <div class="column">
+
+              <img class="demo cursor" src="images/bridge.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+
+          </div>
+
+      </div>
+
+  </div>
     
     
     <div id="main2">
@@ -240,6 +353,10 @@
     <script type="text/javascript" src="js/equalityact.js"></script>
 
     <script type="text/javascript" src="js/modalform.js"></script>
+
+    <script type="text/javascript" src="js/modal_picture_gallery.js"></script>
+
+    <script type="text/javascript" src="js/cookielaw.js"></script>
 
     
 </html>
