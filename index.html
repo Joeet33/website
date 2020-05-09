@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/picture_gallery.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
 </head>
 
@@ -146,7 +146,7 @@
 
       <div class="column">
 
-          <img src="images/space.jpg" alt="Space Image" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          <img src="images/space.jpg" style="width:100%" alt="Space Image" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 
       </div>
 
@@ -170,41 +170,41 @@
 
   </div>
 
-  <div id="myModal" class="modal">
+  <div id="Modal" class="modal">
 
       <span class="close cursor" onclick="closeModal()">&times;</span>
   
       <div class="modal-content">
 
-          <div class="mySlides">
+          <div class="Slides">
 
               <div class="numbertext">1 / 4</div>
 
-              <img src="images/space.jpg" alt="Nature Wide Image" style="width:100%">
+              <img src="images/space.jpg" alt="Space Image" style="width:100%">
       
           </div>
 
-          <div class="mySlides">
+          <div class="Slides">
 
               <div class="numbertext">2 / 4</div>
 
-              <img src="images/sunflower.jpg" alt="Snow Wide Image" style="width:100%">
+              <img src="images/sunflower.jpg" alt="Sunflower Image" style="width:100%">
 
           </div>
 
-          <div class="mySlides">
+          <div class="Slides">
 
               <div class="numbertext">3 / 4</div>
 
-              <img src="images/puffin.jpg" alt="Mountains Wide Image" style="width:100%">
+              <img src="images/puffin.jpg" alt="Puffin Image" style="width:100%">
 
           </div>
 
-          <div class="mySlides">
+          <div class="Slides">
 
               <div class="numbertext">4 / 4</div>
 
-              <img src="images/bridge.jpg" alt="Lights Wide Image" style="width:100%">
+              <img src="images/bridge.jpg" alt="Bridge Image" style="width:100%">
 
           </div>
 
@@ -221,30 +221,31 @@
 
           <div class="column">
 
-              <img class="demo cursor" src="images/space.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+              <img class="demo cursor" src="images/space.jpg" style="width:100%" onclick="currentSlide(1)" alt="Space">
 
           </div>
 
           <div class="column">
 
-              <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+              <img class="demo cursor" src="images/sunflower.jpg" style="width:100%" onclick="currentSlide(2)" alt="Sunflower">
 
           </div>
 
           <div class="column">
 
-              <img class="demo cursor" src="images/puffin.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+              <img class="demo cursor" src="images/puffin.jpg" style="width:100%" onclick="currentSlide(3)" alt="Puffin">
 
           </div>
 
           <div class="column">
 
-              <img class="demo cursor" src="images/bridge.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+              <img class="demo cursor" src="images/bridge.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bridge">
 
           </div>
 
       </div>
 
+  </div>
   </div>
     
     
@@ -285,38 +286,63 @@
 
     
   <div id="main5">
-	
-    <div class="slideshow-container">
 
-      <div class="Slides fade">
-        <div class="numbertext">1 / 3</div>
-        <img class="image" src="images/black hole.jpg" style="width:50%" alt="Blackhole">
-        <div class="text">Caption Text</div>
-      </div>
+        <div id="slideshow_container">
 
-      <div class="Slides fade">
-        <div class="numbertext">2 / 3</div>
-        <img class="image" src="images/moon.jfif" style="width:50%" alt="Moon">
-        <div class="text">Caption Two</div>
-      </div>
+          <!--Slideshow container--> 
+<div class="slideshow-container">
 
-      <div class="Slides fade">
-        <div class="numbertext">3 / 3</div>
-        <img class="image" src="images/mountain.jpg" style="width:50%" alt="Mountain">
-        <div class="text">Caption Three</div>
+         <!--Full-width images with number and caption text--> 
+        <div class="Slides fade" style="display: none;">
+
+            <div class="numbertext">1 / 3</div>
+
+            <img src="images/black hole.jpg" style="width:100%" alt="Blackhole Wide Image">
+
+            <div class="text">Blackhole Wide</div>
+
+        </div>
+
+        <div class="Slides fade" style="display: none;">
+
+            <div class="numbertext">2 / 3</div>
+
+            <img src="images/moon.jfif" style="width:100%" alt="Moon Wide Image">
+
+            <div class="text">Moon Wide</div>
+
+        </div>
+
+        <div class="Slides fade" style="display: block;">
+
+            <div class="numbertext">3 / 3</div>
+
+            <img src="images/mountain.jpg" style="width:100%" alt="Mountain Wide Image">
+
+            <div class="text">Mountain Wide</div>
+
+        </div>
+
+        </div>
+
+
+
+         <!--The dots/circles -->
+        <div style="text-align:center">
+
+            <span class="dot" onclick="currentSlide(1)"></span>
+
+            <span class="dot" onclick="currentSlide(2)"></span>
+
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+        </div> 
       </div>
 
     </div>
 
-        <br>
 
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-	
+
   </div>
 
 

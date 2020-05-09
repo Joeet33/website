@@ -1,6 +1,10 @@
+$(document).ready(function(){
+
 // JavaScript Document
 
   //alert("Page 1 Button working");
+
+  $("#flex-item_1").click(function(){
  
 $("title").text("Home");
    
@@ -118,15 +122,13 @@ $("#hamburgermenu").click(function() {
       
     }
     
-  
-    
   });
     
   $("#mobilefindus").click(function() {
     
     //alert("page 2 button works");
     
-      $("title").text("Tiny's Website Page 2");
+      $("title").text("Maps");
     
       $("#main1").hide();
     
@@ -144,7 +146,7 @@ $("#hamburgermenu").click(function() {
     
     //alert("page 3 button works");
     
-      $("title").text("Tiny's Website Page 3");	
+      $("title").text("Videos");	
     
       $("#main1").hide();
     
@@ -163,7 +165,7 @@ $("#hamburgermenu").click(function() {
     
     //alert("page 4 button works");
     
-      $("title").text("Tiny's Website Page 4");	
+      $("title").text("Enquiries");	
     
       $("#main1").hide();
     
@@ -182,7 +184,7 @@ $("#hamburgermenu").click(function() {
     
     //alert("page 5 button works");
     
-      $("title").text("Tiny's Website Page 5");	
+      $("title").text("Work");	
     
       $("#main1").hide();
     
@@ -194,7 +196,6 @@ $("#hamburgermenu").click(function() {
     
       $("#main5").show();
     
-    
   });	
 
-});
+  });
